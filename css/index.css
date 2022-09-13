@@ -1556,8 +1556,9 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: white;
+  border: 2px solid white;
 }
 
 .btn-primary {
@@ -1566,8 +1567,9 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: #264653;
+  border: 2px solid #264653;
 }
 .btn-primary:hover {
   background-color: #335e6f;
@@ -1579,7 +1581,7 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: #e9ebee;
   border: 2px solid #264653;
 }
@@ -1593,13 +1595,15 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: #264653;
   color: #643e2e;
+  border: 2px solid #264653;
 }
 .btn-complement-primary:hover {
   color: #264653;
   background-color: #643e2e;
+  border: 2px solid #643e2e;
 }
 
 .btn-secondary {
@@ -1608,8 +1612,9 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: #2a9d8f;
+  border: 2px solid #2a9d8f;
 }
 .btn-secondary:hover {
   background-color: #33bdac;
@@ -1621,7 +1626,7 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: #e9ebee;
   border: 2px solid #2a9d8f;
 }
@@ -1635,13 +1640,15 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: #2a9d8f;
   color: #b12f3f;
+  border: 2px solid #2a9d8f;
 }
 .btn-complement-secondary:hover {
   color: #2a9d8f;
   background-color: #b12f3f;
+  border: 2px solid #b12f3f;
 }
 
 .btn-error {
@@ -1650,8 +1657,9 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: #e76f51;
+  border: 2px solid #e76f51;
 }
 .btn-error:hover {
   background-color: #ec8d75;
@@ -1663,7 +1671,7 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: #e9ebee;
   border: 2px solid #e76f51;
 }
@@ -1677,13 +1685,15 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: #e76f51;
   color: #67d0ea;
+  border: 2px solid #e76f51;
 }
 .btn-complement-error:hover {
   color: #e76f51;
   background-color: #67d0ea;
+  border: 2px solid #67d0ea;
 }
 
 .btn-info {
@@ -1692,8 +1702,9 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: #e9c46a;
+  border: 2px solid #e9c46a;
 }
 .btn-info:hover {
   background-color: #eed28e;
@@ -1705,7 +1716,7 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: #e9ebee;
   border: 2px solid #e9c46a;
 }
@@ -1719,13 +1730,15 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: #e9c46a;
   color: #80a0ec;
+  border: 2px solid #e9c46a;
 }
 .btn-complement-info:hover {
   color: #e9c46a;
   background-color: #80a0ec;
+  border: 2px solid #80a0ec;
 }
 
 .btn-dependency {
@@ -1734,8 +1747,9 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: #f4a261;
+  border: 2px solid #f4a261;
 }
 .btn-dependency:hover {
   background-color: #f7b887;
@@ -1747,7 +1761,7 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: #e9ebee;
   border: 2px solid #f4a261;
 }
@@ -1761,13 +1775,15 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: #f4a261;
   color: #79bef6;
+  border: 2px solid #f4a261;
 }
 .btn-complement-dependency:hover {
   color: #f4a261;
   background-color: #79bef6;
+  border: 2px solid #79bef6;
 }
 
 .btn-blue {
@@ -1776,8 +1792,9 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: blue;
+  border: 2px solid blue;
 }
 .btn-blue:hover {
   background-color: #2929ff;
@@ -1789,7 +1806,7 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: #e9ebee;
   border: 2px solid blue;
 }
@@ -1803,13 +1820,15 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: blue;
   color: #ffff1a;
+  border: 2px solid blue;
 }
 .btn-complement-blue:hover {
   color: blue;
   background-color: #ffff1a;
+  border: 2px solid #ffff1a;
 }
 
 .btn-gray {
@@ -1818,8 +1837,9 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: gray;
+  border: 2px solid gray;
 }
 .btn-gray:hover {
   background-color: #949494;
@@ -1831,7 +1851,7 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: #e9ebee;
   border: 2px solid gray;
 }
@@ -1845,13 +1865,15 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: gray;
   color: #8d8d8d;
+  border: 2px solid gray;
 }
 .btn-complement-gray:hover {
   color: gray;
   background-color: #8d8d8d;
+  border: 2px solid #8d8d8d;
 }
 
 .btn-green {
@@ -1860,8 +1882,9 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: green;
+  border: 2px solid green;
 }
 .btn-green:hover {
   background-color: #00a900;
@@ -1873,7 +1896,7 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: #e9ebee;
   border: 2px solid green;
 }
@@ -1887,13 +1910,15 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: green;
   color: #9a009a;
+  border: 2px solid green;
 }
 .btn-complement-green:hover {
   color: green;
   background-color: #9a009a;
+  border: 2px solid #9a009a;
 }
 
 .btn-black {
@@ -1902,8 +1927,9 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: black;
+  border: 2px solid black;
 }
 .btn-black:hover {
   background-color: #141414;
@@ -1915,7 +1941,7 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: #e9ebee;
   border: 2px solid black;
 }
@@ -1929,13 +1955,15 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: black;
   color: #0d0d0d;
+  border: 2px solid black;
 }
 .btn-complement-black:hover {
   color: black;
   background-color: #0d0d0d;
+  border: 2px solid #0d0d0d;
 }
 
 .btn-red {
@@ -1944,8 +1972,9 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: red;
+  border: 2px solid red;
 }
 .btn-red:hover {
   background-color: #ff2929;
@@ -1957,7 +1986,7 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: #e9ebee;
   border: 2px solid red;
 }
@@ -1971,13 +2000,15 @@ a {
   display: inline-block;
   border: 0;
   padding: 0.7rem 1.4rem;
-  border-radius: 13.3333333333px;
+  border-radius: 6.6666666667px;
   background-color: red;
   color: #1affff;
+  border: 2px solid red;
 }
 .btn-complement-red:hover {
   color: red;
   background-color: #1affff;
+  border: 2px solid #1affff;
 }
 
 body {
@@ -1995,20 +2026,25 @@ body {
 .bg-palette .bg-primary {
   background-color: #264653;
   height: 50px;
+  font-weight: 700;
 }
 .bg-palette .bg-secondary {
   background-color: #2a9d8f;
   height: 50px;
+  font-weight: 700;
 }
 .bg-palette .bg-error {
   background-color: #e76f51;
   height: 50px;
+  font-weight: 700;
 }
 .bg-palette .bg-info {
   background-color: #e9c46a;
   height: 50px;
+  font-weight: 700;
 }
 .bg-palette .bg-dependency {
   background-color: #f4a261;
   height: 50px;
+  font-weight: 700;
 }/*# sourceMappingURL=index.css.map */

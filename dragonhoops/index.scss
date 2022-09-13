@@ -18,6 +18,7 @@ body {
 	padding: 50px;
 }
 
+
 .bg-palette {
 	display: flex;
 	flex-direction: column;
@@ -30,27 +31,32 @@ body {
 	.bg-primary {
 		background-color: $primary;
 		height: 50px;
+		font-weight: 700;
 
 		
 	}
 	.bg-secondary {
 		background-color: $secondary;
 		height: 50px;
+		font-weight: 700;
 
 	}
 	.bg-error {
 		background-color: $error;
 		height: 50px;
+		font-weight: 700;
 
 	}
 	.bg-info {
 		background-color: $info;
 		height: 50px;
+		font-weight: 700;
 
 	}
 	.bg-dependency {
 		background-color: $depedency;
 		height: 50px;
+		font-weight: 700;
 
 	}
 }
