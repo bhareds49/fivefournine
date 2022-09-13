@@ -18,7 +18,6 @@ body {
 	padding: 50px;
 }
 
-
 .bg-palette {
 	display: flex;
 	flex-direction: column;
@@ -30,33 +29,43 @@ body {
 
 	.bg-primary {
 		background-color: $primary;
-		height: 50px;
+		height: auto;
+		font-size: 1.5rem;
 		font-weight: 700;
-
-		
+		padding: 20px;
 	}
 	.bg-secondary {
 		background-color: $secondary;
-		height: 50px;
+		height: auto;
+		font-size: 1.5rem;
 		font-weight: 700;
-
+		padding: 20px;
 	}
 	.bg-error {
 		background-color: $error;
-		height: 50px;
+		height: auto;
+		font-size: 1.5rem;
 		font-weight: 700;
-
+		padding: 20px;
 	}
 	.bg-info {
 		background-color: $info;
-		height: 50px;
+		height: auto;
+		font-size: 1.5rem;
 		font-weight: 700;
-
+		padding: 20px;
 	}
 	.bg-dependency {
 		background-color: $depedency;
-		height: 50px;
+		height: auto;
+		font-size: 1.5rem;
 		font-weight: 700;
-
+		padding: 20px;
 	}
+}
+
+div {
+	height: auto;
+	font-weight: 400;
+	padding: 10px;
 }
