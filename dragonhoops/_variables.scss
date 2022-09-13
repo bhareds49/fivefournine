@@ -1,0 +1,52 @@
+@use "sass:math";
+
+//theme colors
+$primary: #264653;
+$secondary: #2a9d8f;
+$error: #e76f51;
+$info: #e9c46a;
+$depedency: #f4a261;
+$background: #e9ebee;
+
+//color palette
+$colors: (
+	"primary": $primary,
+	"secondary": $secondary,
+	"error": $error,
+	"info": $info,
+	"dependency": $depedency,
+	"blue": blue,
+	"gray": gray,
+	"green": green,
+	"black": black,
+	"red": red,
+);
+
+.test-btn {
+	background-color: map-get($colors, "black");
+}
+
+span {
+	font-size: 1.2rem;
+}
+
+@debug map-get($colors, "black");
+//
+
+//spacing
+$base-padding: 0.7rem;
+$base-margin: 0.7rem;
+
+//borders
+$base-border-thickness: 2px;
+$base-border-radius: 20px;
+
+//box-shadow
+$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+
+//font sizes
+$base-font-size: 1rem;
+
+//$font-size-sm: $base-font-size * 0.75;
+//$font-size-lg: $base-font-size * 1.5;
+$font-size-xl: $base-font-size * 2;

@@ -1,0 +1,72 @@
+//variables and functions
+@import "variables";
+@import "functions";
+
+//base and layout
+@import "base";
+
+//colors
+@import "colors";
+
+//components (button card navbar etc)
+@import "components/card";
+@import "components/button";
+
+//utilities (marging padding opacity)
+
+body {
+  padding: 50px;
+}
+
+
+.bg-palette {
+	display: flex;
+	flex-direction: column;
+	font-weight: 700;
+	padding: $base-padding;
+
+	.bg-primary {
+		background-color: $primary;
+		height: 80px;
+	}
+	.bg-secondary {
+		background-color: $secondary;
+		height: 80px;
+	}
+	.bg-error {
+		background-color: $error;
+		height: 80px;
+	}
+	.bg-info {
+		background-color: $info;
+		height: 80px;
+	}
+	.bg-dependency {
+		background-color: $depedency;
+		height: 80px;
+	}
+}
+
+
+.error {
+	color: $error;
+	border-color: $error;
+	border-style: solid;
+	margin: $base-margin;
+	padding: $base-padding;
+	border-radius: $base-border-radius;
+	border-width: $base-border-thickness;
+	background-color: white;
+}
+
+.notification {
+	color: $secondary;
+	border-color: $secondary;
+	border-style: solid;
+
+	margin: $base-margin;
+	padding: $base-padding;
+	border-radius: $base-border-radius;
+	border-width: $base-border-thickness;
+	background-color: white;
+}
