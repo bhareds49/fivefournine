@@ -18,26 +18,57 @@ body {
 	padding: 50px;
 }
 
+.navbar-css {
+	background-color: $primary;
+	color: $secondary;
+	a {
+		background-color: $primary;
+	}
+}
+
+.title {
+	font-family: "Old Standard TT", serif;
+	font-size: 10rem;
+	font-weight: bold;
+	color: $primary;
+	justify-content: center;
+	text-align: center;
+
+
+	.subtitle {
+		font-family: "Nunito Sans", serif;
+		font-size: 1.2rem;
+		color: $primary;
+		justify-content: center;
+	}
+
+	.version {
+		font-size: .9rem;
+		font-style: italic;
+	}
+}
+
 .bg-palette {
 	display: flex;
 	flex-direction: column;
 	padding: $base-padding;
 
-	h1 {
+	p {
+		margin-top: 0;
 		text-align: center;
 	}
 
 	.bg-primary {
 		background-color: $primary;
 		height: auto;
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 		font-weight: 700;
 		padding: 20px;
 	}
 	.bg-secondary {
 		background-color: $secondary;
 		height: auto;
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 		font-weight: 700;
 		padding: 20px;
 	}
@@ -51,14 +82,14 @@ body {
 	.bg-info {
 		background-color: $info;
 		height: auto;
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 		font-weight: 700;
 		padding: 20px;
 	}
 	.bg-dependency {
 		background-color: $depedency;
 		height: auto;
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 		font-weight: 700;
 		padding: 20px;
 	}
@@ -68,4 +99,5 @@ div {
 	height: auto;
 	font-weight: 400;
 	padding: 10px;
+
 }

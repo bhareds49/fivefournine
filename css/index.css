@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: "Nunito Sans";
+  font-family: "Nunito Sans", sans-serif;
 }
 
 ul {
@@ -2015,25 +2015,53 @@ body {
   padding: 50px;
 }
 
+.navbar-css {
+  background-color: #264653;
+  color: #2a9d8f;
+}
+.navbar-css a {
+  background-color: #264653;
+}
+
+.title {
+  font-family: "Old Standard TT", serif;
+  font-size: 10rem;
+  font-weight: bold;
+  color: #264653;
+  justify-content: center;
+  text-align: center;
+}
+.title .subtitle {
+  font-family: "Nunito Sans", serif;
+  font-size: 1.2rem;
+  color: #264653;
+  justify-content: center;
+}
+.title .version {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
 .bg-palette {
   display: flex;
   flex-direction: column;
   padding: 0.7rem;
 }
-.bg-palette h1 {
+.bg-palette p {
+  margin-top: 0;
   text-align: center;
 }
 .bg-palette .bg-primary {
   background-color: #264653;
   height: auto;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
   padding: 20px;
 }
 .bg-palette .bg-secondary {
   background-color: #2a9d8f;
   height: auto;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
   padding: 20px;
 }
@@ -2047,14 +2075,14 @@ body {
 .bg-palette .bg-info {
   background-color: #e9c46a;
   height: auto;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
   padding: 20px;
 }
 .bg-palette .bg-dependency {
   background-color: #f4a261;
   height: auto;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
   padding: 20px;
 }

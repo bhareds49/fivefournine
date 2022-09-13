@@ -12,15 +12,37 @@
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Old+Standard+TT:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
+    <div class="title">
+      549
+      <div class="subtitle">
+        <p>FiveFourNine is minimalist and colorful CSS Framework.</p>
+        <p class="version"> This is v0.1 </p>
+      </div>
+    </div>
     <div class="bg-palette">
-      <h1>Welcome to the FiveFourNine CSS Framework</h1>
-      This is our initial (custom) color palette! Any of these colors can be
-      changed and it will cascade through the entire framework! I will be adding
-      other utilities so that we can modify margins, padding, etc. I am also
-      going to add a grid system so that we can create a layout directly from
-      the framework. LEZ GO >:)
+      <div class="navbar-css" id="navbar">
+        <a class="text-hover-info" href="#theme-colors">Color Variations</a> |
+        <a class="text-hover-info" href="#components">Components</a>
+      </div>
+
+      <div class="text-primary-dark-8">
+        This is our initial (custom) color palette! Any of these colors can be
+        changed and it will cascade through the entire framework! I will be
+        adding other utilities so that we can modify margins, padding, etc. I am
+        also going to add a grid system so that we can create a layout directly
+        from the framework. LEZ GO >:)
+      </div>
+
+      <br />
 
       <div class="bg-primary text-primary-light-8">1. Primary</div>
       <div class="bg-secondary text-secondary-light-8">2. Secondary</div>
@@ -32,7 +54,7 @@
     </div>
     <br />
 
-    <h2>Colors</h2>
+    <h2 id="theme-colors">Colors</h2>
     <br />
     Text Colors: <br /><br />
 
@@ -102,7 +124,7 @@
     <br /><br />
     <!-- Cards -->
 
-    <h2>Cards</h2>
+    <h2 id="components">Cards</h2>
     <br />
     <div class="card">
       <h1 class="card-title">This is a Card title</h1>
