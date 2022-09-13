@@ -4,6 +4,7 @@
 
 //base and layout
 @import "base";
+@import "breakpoints";
 
 //colors
 @import "colors";
@@ -13,14 +14,19 @@
 @import "components/button";
 
 //utilities (marging padding opacity)
+@import "utilities";
 
 body {
 	padding: 50px;
 }
 
+hr {
+	border: 0.75px solid $primary;
+}
+
 .navbar-css {
 	background-color: $primary;
-	color: $secondary;
+	color: $info;
 	a {
 		background-color: $primary;
 	}
@@ -33,71 +39,24 @@ body {
 	color: $primary;
 	justify-content: center;
 	text-align: center;
-
+	
 
 	.subtitle {
 		font-family: "Nunito Sans", serif;
 		font-size: 1.2rem;
 		color: $primary;
 		justify-content: center;
+		
 	}
 
 	.version {
-		font-size: .9rem;
+		font-size: 0.9rem;
 		font-style: italic;
-	}
-}
-
-.bg-palette {
-	display: flex;
-	flex-direction: column;
-	padding: $base-padding;
-
-	p {
-		margin-top: 0;
-		text-align: center;
-	}
-
-	.bg-primary {
-		background-color: $primary;
-		height: auto;
-		font-size: 1.2rem;
-		font-weight: 700;
-		padding: 20px;
-	}
-	.bg-secondary {
-		background-color: $secondary;
-		height: auto;
-		font-size: 1.2rem;
-		font-weight: 700;
-		padding: 20px;
-	}
-	.bg-error {
-		background-color: $error;
-		height: auto;
-		font-size: 1.5rem;
-		font-weight: 700;
-		padding: 20px;
-	}
-	.bg-info {
-		background-color: $info;
-		height: auto;
-		font-size: 1.2rem;
-		font-weight: 700;
-		padding: 20px;
-	}
-	.bg-dependency {
-		background-color: $depedency;
-		height: auto;
-		font-size: 1.2rem;
-		font-weight: 700;
-		padding: 20px;
 	}
 }
 
 div {
 	height: auto;
-	font-weight: 400;
-	padding: 10px;
 
+	padding: 10px;
 }
