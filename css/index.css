@@ -3,10 +3,6 @@
   background-color: black;
 }
 
-span {
-  font-size: 1.2rem;
-}
-
 /* reset styles */
 * {
   background-color: #e9ebee;
@@ -1551,7 +1547,7 @@ a {
 }
 .card .card-body a {
   color: #2a9d8f;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .btn {
@@ -1991,48 +1987,28 @@ body {
 .bg-palette {
   display: flex;
   flex-direction: column;
-  font-weight: 700;
   padding: 0.7rem;
+}
+.bg-palette h1 {
+  text-align: center;
 }
 .bg-palette .bg-primary {
   background-color: #264653;
-  height: 80px;
+  height: 50px;
 }
 .bg-palette .bg-secondary {
   background-color: #2a9d8f;
-  height: 80px;
+  height: 50px;
 }
 .bg-palette .bg-error {
   background-color: #e76f51;
-  height: 80px;
+  height: 50px;
 }
 .bg-palette .bg-info {
   background-color: #e9c46a;
-  height: 80px;
+  height: 50px;
 }
 .bg-palette .bg-dependency {
   background-color: #f4a261;
-  height: 80px;
-}
-
-.error {
-  color: #e76f51;
-  border-color: #e76f51;
-  border-style: solid;
-  margin: 0.7rem;
-  padding: 0.7rem;
-  border-radius: 20px;
-  border-width: 2px;
-  background-color: white;
-}
-
-.notification {
-  color: #2a9d8f;
-  border-color: #2a9d8f;
-  border-style: solid;
-  margin: 0.7rem;
-  padding: 0.7rem;
-  border-radius: 20px;
-  border-width: 2px;
-  background-color: white;
+  height: 50px;
 }/*# sourceMappingURL=index.css.map */

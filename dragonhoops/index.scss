@@ -15,58 +15,42 @@
 //utilities (marging padding opacity)
 
 body {
-  padding: 50px;
+	padding: 50px;
 }
-
 
 .bg-palette {
 	display: flex;
 	flex-direction: column;
-	font-weight: 700;
 	padding: $base-padding;
+
+	h1 {
+		text-align: center;
+	}
 
 	.bg-primary {
 		background-color: $primary;
-		height: 80px;
+		height: 50px;
+
+		
 	}
 	.bg-secondary {
 		background-color: $secondary;
-		height: 80px;
+		height: 50px;
+
 	}
 	.bg-error {
 		background-color: $error;
-		height: 80px;
+		height: 50px;
+
 	}
 	.bg-info {
 		background-color: $info;
-		height: 80px;
+		height: 50px;
+
 	}
 	.bg-dependency {
 		background-color: $depedency;
-		height: 80px;
+		height: 50px;
+
 	}
-}
-
-
-.error {
-	color: $error;
-	border-color: $error;
-	border-style: solid;
-	margin: $base-margin;
-	padding: $base-padding;
-	border-radius: $base-border-radius;
-	border-width: $base-border-thickness;
-	background-color: white;
-}
-
-.notification {
-	color: $secondary;
-	border-color: $secondary;
-	border-style: solid;
-
-	margin: $base-margin;
-	padding: $base-padding;
-	border-radius: $base-border-radius;
-	border-width: $base-border-thickness;
-	background-color: white;
 }

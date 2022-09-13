@@ -4,7 +4,7 @@
     display: block;
     padding: $base-padding;
     border: $base-border-thickness solid #ddd;
-    box-shadow: $base-box-shadow;
+    box-shadow: $base-box-shadow; 
     border-radius: math.div($base-border-radius, 4);
 
     .card-title {
@@ -19,7 +19,7 @@
 
         a {
             color: $secondary;
-            text-decoration: underline;
+            text-decoration: none;
         }
     }
 }
