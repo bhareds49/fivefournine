@@ -5,6 +5,7 @@
 //base and layout
 @import "base";
 @import "breakpoints";
+@import "grid";
 
 //colors
 @import "colors";
@@ -12,13 +13,11 @@
 //components (button card navbar etc)
 @import "components/card";
 @import "components/button";
+@import "components/navbar";
 
 //utilities (marging padding opacity)
 @import "utilities";
 
-body {
-	padding: 50px;
-}
 
 hr {
 	border: 0.75px solid $primary;
@@ -55,8 +54,4 @@ hr {
 	}
 }
 
-div {
-	height: auto;
 
-	padding: 10px;
-}
