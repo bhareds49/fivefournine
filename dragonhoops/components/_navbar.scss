@@ -10,6 +10,9 @@
     @extend %flex-layout;
     padding: $base-padding $base-padding * 2;
     box-shadow: $base-box-shadow;
+    position: -webkit-sticky;
+    position: sticky;
+	top: 0;
 
     .site-title{
         font-size: $base-font-size * 2;

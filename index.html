@@ -18,59 +18,71 @@
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Old+Standard+TT:wght@400;700&display=swap"
       rel="stylesheet"
     />
+
+
   </head>
 
   <body class="bg-background">
     <nav class="navbar-secondary mb-4">
       <div class="container">
-        <h2 class="site-title">Dependify!</h2>
-        <p>Design System</p>
+        <h2 class="site-title">Dependify! Design System</h2>
+        <div class="display-f">
+          <a class="text-primary text-hover-info ml-2" href="#theme-colors">
+            Color Variations
+          </a>
+          <a class="text-primary text-hover-info ml-2" href="#components">
+            Components
+          </a>
+          <a
+            class="text-primary text-hover-info ml-2"
+            href="example_landing_page.html"
+          >
+            Example Landing Page
+          </a>
+        </div>
       </div>
     </nav>
     <div class="container">
       <div class="title">
         549
         <div class="subtitle">
-          <p>FiveFourNine is minimalist and colorful CSS Framework.</p>
-          <p class="version">This is v0.1</p>
+          <p>FiveFourNine is a minimalist and colorful CSS Framework.</p>
+          <p class="version">This is v1.0</p>
           <hr class="mt-3 mb-3 bg-color-primary" />
         </div>
       </div>
-      <div class="navbar-css">
-        <a class="text-primary-light-5 text-hover-info" href="#theme-colors">
-          Color Variations
-        </a>
-        |
-        <a class="text-primary-light-5 text-hover-info" href="#components">
-          Components
-        </a>
-        |
-        <a class="text-primary-light-5 text-hover-info" href="example_landing_page.html">
-          Example Landing Page
-        </a>
-      </div>
+
       <div class="text-primary-dark-8">
-        This is our initial (custom) color palette! Any of these colors can be
-        changed and it will cascade through the entire framework! I will be
-        adding other utilities so that we can modify margins, padding, etc. I am
-        also going to add a grid system so that we can create a layout directly
-        from the framework. LEZ GO >:)
+        Changelog:
+        <br />
+        9/14/22: Version 1.0. Any property can be customized from the variables
+        sass file. They will propagate through the entire design system. LEZ GO
+        >:)
       </div>
 
       <hr class="mt-3 mb-3 bg-color-primary" />
 
       <h2 id="theme-colors">Colors</h2>
       <br />
-      Text Colors: <br /><br />
+      The default font we use is "Nunito Sans" - Text Variations: <br /><br />
+      <div class="display-f justify-flex-start mr-1">
+        <p class="text-primary mr-1">text-primary</p>
+        <p class="text-secondary mr-1">text-secondary</p>
+        <p class="text-info mr-1">text-info</p>
+        <p class="text-error mr-1">text-error</p>
+        <p class="text-dependency mr-1">text-dependency</p>
+      </div>
 
-      <div class="text-primary">text-primary</div>
-      <div class="text-secondary">text-secondary</div>
-      <div class="text-info">text-info</div>
-      <div class="text-error">text-error</div>
-      <div class="text-dependency">text-dependency</div>
+      <div class="display-f justify-flex-start mt-1">
+        <p class="text-primary mr-1 font-sm">small font</p>
+        <p class="text-primary mr-1 font-md">medium font</p>
+        <p class="text-primary mr-1 font-lg">large font</p>
+        <p class="text-primary mr-1 font-xl">xl font</p>
+        <p class="text-primary mr-1 font-xxl">xxl font</p>
+      </div>
 
       <br />
-      Background Colors: <br /><br />
+      Colors: <br /><br />
       <div class="bg-primary text-primary-light-5 text-hover-info">
         bg-primary
       </div>
@@ -80,7 +92,7 @@
       <div class="bg-info text-info-dark-5 text-hover-primary">bg-info</div>
       <div class="bg-error text-error-dark-5 text-hover-info">bg-error</div>
       <div class="bg-dependency text-dependency-dark-5 text-hover-info">
-        bg-blue
+        bg-dependency
       </div>
 
       <br /><br />
@@ -212,6 +224,8 @@
       <div class="responsive-test">
         This color will change based on the screen width!
       </div>
+
+      <hr class="mt-3 mb-3 bg-color-primary" />
     </div>
   </body>
 </html>

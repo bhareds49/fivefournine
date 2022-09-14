@@ -18,6 +18,9 @@
 //utilities (marging padding opacity)
 @import "utilities";
 
+svg {
+	font-size: 20px;
+}
 
 hr {
 	border: 0.75px solid $primary;
@@ -38,14 +41,12 @@ hr {
 	color: $primary;
 	justify-content: center;
 	text-align: center;
-	
 
 	.subtitle {
 		font-family: "Nunito Sans", serif;
 		font-size: 1.2rem;
 		color: $primary;
 		justify-content: center;
-		
 	}
 
 	.version {
@@ -53,5 +54,3 @@ hr {
 		font-style: italic;
 	}
 }
-
-

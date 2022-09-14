@@ -42,22 +42,22 @@ a {
     color: #e9ebee;
   }
 }
-@media (min-width: 480px) {
+@media (min-width: 300px) {
   .responsive-test {
     background-color: #09BC8A;
   }
 }
-@media (min-width: 720px) {
+@media (min-width: 500px) {
   .responsive-test {
     background-color: #fcf300;
   }
 }
-@media (min-width: 960px) {
+@media (min-width: 700px) {
   .responsive-test {
     background-color: #FF2E00;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 900px) {
   .responsive-test {
     background-color: #FEA82F;
   }
@@ -179,7 +179,7 @@ a {
     width: 100%;
   }
 }
-@media (min-width: 480px) {
+@media (min-width: 300px) {
   .col-1-sm {
     box-sizing: border-box;
     flex-grow: 0;
@@ -241,7 +241,7 @@ a {
     width: 100%;
   }
 }
-@media (min-width: 720px) {
+@media (min-width: 500px) {
   .col-1-md {
     box-sizing: border-box;
     flex-grow: 0;
@@ -303,7 +303,7 @@ a {
     width: 100%;
   }
 }
-@media (min-width: 960px) {
+@media (min-width: 700px) {
   .col-1-lg {
     box-sizing: border-box;
     flex-grow: 0;
@@ -365,7 +365,7 @@ a {
     width: 100%;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 900px) {
   .col-1-xl {
     box-sizing: border-box;
     flex-grow: 0;
@@ -1190,6 +1190,9 @@ a {
 .navbar, .navbar-background, .navbar-dependency, .navbar-info, .navbar-error, .navbar-secondary, .navbar-primary {
   padding: 0.7rem 1.4rem;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 .navbar .site-title, .navbar-background .site-title, .navbar-dependency .site-title, .navbar-info .site-title, .navbar-error .site-title, .navbar-secondary .site-title, .navbar-primary .site-title {
   font-size: 24px;
@@ -1560,6 +1563,10 @@ a {
 
 .font-xxl {
   font-size: 36px;
+}
+
+svg {
+  font-size: 20px;
 }
 
 hr {
